@@ -1,0 +1,5 @@
+export class EtatIs {
+  public id: number ;
+  public libelle: string;
+  public code: string;
+}

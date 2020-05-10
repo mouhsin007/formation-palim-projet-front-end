@@ -1,0 +1,19 @@
+.label{
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+}
+.head{
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+}
+.btnea{
+  color: #00bbff;
+}
+.bt{
+  margin-left: 65%;
+  width: 180px;
+
+}

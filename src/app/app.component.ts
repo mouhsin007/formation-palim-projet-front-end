@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ImpotSocieteService} from './controller/service/impot-societe.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'declaration-is';
+constructor(private impotSocieteService: ImpotSocieteService) {}
+public findDeclaration(){
+  return this.impotSocieteService.findDeclaration();
+}
 }
